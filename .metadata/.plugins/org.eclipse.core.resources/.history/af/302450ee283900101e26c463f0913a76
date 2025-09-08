@@ -1,0 +1,13 @@
+package multi_level_inheritance;
+
+public class Parent {
+	
+	float height=5.8f;
+	String noseStructure="normal";
+	String color="White";
+	
+	public void readBooks() {
+		System.out.println("I Love reading book");
+	}
+
+}

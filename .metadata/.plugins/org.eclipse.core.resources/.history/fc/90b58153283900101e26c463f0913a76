@@ -1,0 +1,9 @@
+package single_level_inheritance;
+
+public class Launch {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

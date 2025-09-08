@@ -1,0 +1,10 @@
+package com.constructor.program2;
+
+//constructor overloading
+public class CustomerController {
+	
+	public static void main(String[] args) {
+		new Customer()
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.static_variable.program4;
+
+import java.util.Scanner;
+
+public class Bank {
+	
+	String address;
+	
+	static  String branchName;
+	
+	static {
+		branchName="";
+	}
+	
+	
+	public void acceptInput() {
+		Scanner scanner = new Scanner(System.in);
+		
+		  = scanner.next();
+	}
+	
+	
+	
+
+}

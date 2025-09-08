@@ -1,0 +1,24 @@
+package com.example1;
+
+public class MobileController {
+	public static void main(String[] args) {
+		Mobile mobile = new Mobile();
+		
+		System.out.println(mobile.os.getName());
+		System.out.println(mobile.os.getSize());
+		
+		Charger charger = new Charger("Vivo",35f);
+		mobile.hasCharger(charger);
+		
+		mobile=null;
+		//if mobile is gone then os also gone
+//		System.out.println(mobile.os.getName());
+//		System.out.println(mobile.os.getSize());
+		
+		//if mobile is gone but charger is there
+		System.out.println(charger.getBrand());
+		System.out.println(charger.getVoltage());
+		
+	}
+
+}

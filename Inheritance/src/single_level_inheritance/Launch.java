@@ -1,0 +1,17 @@
+package single_level_inheritance;
+
+public class Launch {
+	
+	public static void main(String[] args) {
+		Child child = new Child();
+		
+		System.out.println(child.height);
+		System.out.println(child.noseStructure);
+		System.out.println(child.color);
+		
+		child.readBooks();
+		child.noDrink();
+		child.noSmoke();
+	}
+
+}

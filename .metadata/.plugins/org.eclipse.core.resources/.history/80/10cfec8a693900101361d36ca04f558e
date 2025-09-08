@@ -1,0 +1,38 @@
+package com.constructor.program5;
+
+public class Customer {
+	private int cId;
+	private String cName;
+	private int cNum;
+	
+	public Customer() {
+		cId=1;
+		cName="Rhutik";
+		cNum=998135;
+	}
+	
+	
+	public Customer(int cId, String cName, int cNum) {
+		this();
+	}
+
+	public int getcId() {
+		return cId;
+	}
+
+	public String getcName() {
+		return cName;
+	}
+
+	public int getcNum() {
+		return cNum;
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

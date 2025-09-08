@@ -1,0 +1,27 @@
+package com.static_variable.program3;
+
+import java.util.Scanner;
+
+public class AdharCard {
+	
+	Long adharNumber;
+	String firstName;
+	String lastName;
+	String address;
+	
+	String nationality;
+	
+	
+	public void acceptInput() {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter the adhar Number");
+		 adharNumber = scanner.nextLong();
+		
+		System.out.println("Enter the First Name");
+		String firstName = scanner.next();
+	}
+	
+	
+
+}

@@ -1,0 +1,8 @@
+package com.example;
+
+public class Charger {
+	String brand;
+	float voltage;
+	
+
+}

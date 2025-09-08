@@ -1,0 +1,36 @@
+package hierarchical_inheritance;
+
+public class Controller {
+	
+	public static void main(String[] args) {
+		Child1 child1 = new Child1();
+		System.out.println("=========Child1 executing===========");
+		System.out.println(child1.height);
+		System.out.println(child1.noseStructure);
+		System.out.println(child1.color);
+		
+		child1.readBooks();
+		child1.noDrink();
+		child1.noSmoke();
+		
+		System.out.println("=========Child2 executing===========");
+		Child2 child2 = new Child2();
+		System.out.println(child2.height);
+		System.out.println(child2.noseStructure);
+		System.out.println(child2.color);
+		child2.readBooks();
+		child2.noDrink();
+		child2.noSmoke();
+		
+		System.out.println("=========Child3 executing===========");
+		Child3 child3 = new Child3();
+		System.out.println(child3.height);
+		System.out.println(child3.noseStructure);
+		System.out.println(child3.color);
+		
+		child3.readBooks();
+		child3.noDrink();
+		child3.noSmoke();
+	}
+
+}

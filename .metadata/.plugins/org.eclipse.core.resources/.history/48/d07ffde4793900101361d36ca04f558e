@@ -1,0 +1,7 @@
+package com.final_class.program1;
+
+import com.final_method.program1.Parent;
+
+public class Child extends Parent{
+
+}

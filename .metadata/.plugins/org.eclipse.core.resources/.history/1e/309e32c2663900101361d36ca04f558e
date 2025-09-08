@@ -1,0 +1,9 @@
+package com.encapsulation.program3;
+
+public class Bank {
+	
+	int accountNumber;
+	int pinNumber;
+	int balance;
+
+}

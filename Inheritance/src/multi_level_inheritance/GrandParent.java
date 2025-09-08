@@ -1,0 +1,20 @@
+package multi_level_inheritance;
+
+public class GrandParent {
+	float height=5.8f;
+	String noseStructure="normal";
+	String color="White";
+	
+	public void readBooks() {
+		System.out.println("I Love reading book");
+	}
+	
+	public void noSmoke() {
+		System.out.println("I will never smoke");
+	}
+	
+	public void noDrink() {
+		System.out.println("I will never Drink Alcohol");
+	}
+	
+}

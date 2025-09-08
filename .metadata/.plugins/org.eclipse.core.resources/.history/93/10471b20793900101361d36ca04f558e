@@ -1,0 +1,9 @@
+package com.final_method.program1;
+
+public class Alpha {
+	
+	public final void alpha() {
+		System.out.println("Inside Alpha Method");
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.static_variable.program2;
+
+public class BankController {
+	
+	public static void main(String[] args) {
+		BusinessMan businessMan1 = new BusinessMan();
+		businessMan1.acceptInput();
+		businessMan1.calcInterest();
+		businessMan1.disp();
+		
+		
+		BusinessMan businessMan2 = new BusinessMan();
+		
+		
+	}
+
+}

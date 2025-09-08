@@ -1,0 +1,15 @@
+package com.constructor.program3;
+
+//constructor overloading
+public class CustomerController {
+	
+	public static void main(String[] args) {
+		Customer customer1 = new Customer(1,"tim");
+		
+		System.out.println();
+		
+		Customer customer2 = new Customer(1,"tim",200);
+		
+	}
+
+}

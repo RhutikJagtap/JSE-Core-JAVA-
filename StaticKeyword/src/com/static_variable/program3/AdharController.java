@@ -1,0 +1,13 @@
+package com.static_variable.program3;
+
+public class AdharController {
+	
+	public static void main(String[] args) {
+		AdharCard adharCard = new AdharCard();
+		adharCard.acceptInput();
+		
+		System.out.println("==========Adhar Details===========");
+		adharCard.displayAdharDetails();
+	}
+
+}

@@ -1,0 +1,11 @@
+package set;
+
+import java.util.Scanner;
+
+public class RemoveDuplicateUrl {
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+	}
+
+}

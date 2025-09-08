@@ -1,0 +1,9 @@
+package hierarchical_inheritance;
+
+public class Parent {
+	
+	height=5.8f;
+	noseStructure="normal";
+	color="White";
+
+}

@@ -1,0 +1,13 @@
+package map;
+
+import java.util.Scanner;
+
+public class CharacterCount {
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter the String");
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.final_variable.program2;
+
+public class Controller {
+	public static void main(String[] args) {
+		Gravity gravity = new Gravity();
+		
+		System.out.println(gravity.ACCELERATION_DUE_TO_GRAVITY);
+	}
+
+}

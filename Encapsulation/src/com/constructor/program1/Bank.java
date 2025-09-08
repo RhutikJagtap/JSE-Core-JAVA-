@@ -1,0 +1,38 @@
+package com.constructor.program1;
+
+//Constructor
+public class Bank {
+	
+	private int accountNumber;
+	private int pinNumber;
+	private int balance;
+	
+
+	public Bank(int accountNumber, int pinNumber, int balance) {
+		super();
+		this.accountNumber = accountNumber;
+		this.pinNumber = pinNumber;
+		this.balance = balance;
+	}
+
+
+	public int getAccountNumber() {
+		return accountNumber;
+	}
+
+
+	public int getPinNumber() {
+		return pinNumber;
+	}
+
+
+	public int getBalance() {
+		return balance;
+	}
+	
+	
+
+	
+	
+
+}

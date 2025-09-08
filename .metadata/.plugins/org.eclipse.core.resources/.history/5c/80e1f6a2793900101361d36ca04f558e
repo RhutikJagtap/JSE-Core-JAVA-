@@ -1,0 +1,10 @@
+package com.final_method.program1;
+
+public class Launch {
+	
+	public static void main(String[] args) {
+		Child child = new Child();
+		child.alpha();
+	}
+
+}

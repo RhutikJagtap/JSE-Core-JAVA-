@@ -1,0 +1,10 @@
+package com.static_variable.program2;
+
+public class BusinessMan {
+	
+	float si;
+	float p;
+	float t;
+	float r;
+
+}

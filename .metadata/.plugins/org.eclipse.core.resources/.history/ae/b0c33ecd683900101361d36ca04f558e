@@ -1,0 +1,44 @@
+package com.constructor.program3;
+
+public class Customer {
+	private int cId;
+	private String cName;
+	private int cNum;
+	
+	public Customer() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Customer(int cId, String cName) {
+		super();
+		this.cId = cId;
+		this.cName = cName;
+	}
+
+	public Customer(int cId, String cName, int cNum) {
+		super();
+		this.cId = cId;
+		this.cName = cName;
+		this.cNum = cNum;
+	}
+
+	public int getcId() {
+		return cId;
+	}
+
+	public String getcName() {
+		return cName;
+	}
+
+	public int getcNum() {
+		return cNum;
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,8 @@
+package com.constructor.program2;
+
+public class Customer {
+	private int cId;
+	private String cName;
+	int cNum;
+
+}

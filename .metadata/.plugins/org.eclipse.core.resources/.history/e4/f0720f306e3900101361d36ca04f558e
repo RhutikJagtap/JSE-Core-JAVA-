@@ -1,0 +1,9 @@
+package com.static_variable.program3;
+
+public class AdharController {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

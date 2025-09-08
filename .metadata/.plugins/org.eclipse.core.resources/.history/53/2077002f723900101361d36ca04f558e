@@ -1,0 +1,10 @@
+package hybrid_inheritance;
+
+public class GrandParent {
+	
+	float height;
+	String noseStructure;
+	String color;
+	
+
+}

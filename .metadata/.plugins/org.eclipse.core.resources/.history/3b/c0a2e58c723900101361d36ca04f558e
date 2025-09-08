@@ -1,0 +1,12 @@
+package hybrid_inheritance;
+
+public class Launch {
+	
+	public static void main(String[] args) {
+		Child1 child1 = new Child1();
+		child1.readBooks();
+		child1.noDrink();
+		child1.readBooks();
+	}
+
+}

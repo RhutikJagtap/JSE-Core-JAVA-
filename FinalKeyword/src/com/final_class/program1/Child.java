@@ -1,0 +1,6 @@
+package com.final_class.program1;
+
+
+public class Child extends Parent{
+
+}

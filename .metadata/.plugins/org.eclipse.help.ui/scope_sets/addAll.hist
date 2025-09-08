@@ -1,0 +1,6 @@
+#Mon May 19 11:52:56 IST 2025
+__DEFAULT__=false
+expression=addAll
+org.eclipse.help.ui.localSearch.master=true
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.sdk.Google.master=true

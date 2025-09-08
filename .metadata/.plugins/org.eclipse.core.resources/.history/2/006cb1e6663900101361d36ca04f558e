@@ -1,0 +1,25 @@
+package com.encapsulation.program3;
+
+//Constructor
+public class Bank {
+	
+	private int accountNumber;
+	private int pinNumber;
+	private int balance;
+	
+	
+	public Bank() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public Bank(int accountNumber, int pinNumber, int balance) {
+		super();
+		this.accountNumber = accountNumber;
+		this.pinNumber = pinNumber;
+		this.balance = balance;
+	}
+	
+	
+
+}

@@ -1,0 +1,14 @@
+package com.static_variable.program4;
+
+public class Bank {
+	String address;
+	
+	static  String branchName;
+	
+	
+	
+	
+	
+	
+
+}

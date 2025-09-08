@@ -1,0 +1,13 @@
+package com.static_variable.program3;
+
+public class AdharCard {
+	
+	Long adharNumber;
+	String firstName;
+	String lastName;
+	String address;
+	String nationality;
+	
+	
+
+}

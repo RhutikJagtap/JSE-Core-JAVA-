@@ -1,0 +1,29 @@
+package set;
+
+import java.util.Scanner;
+import java.util.TreeSet;
+
+public class RemoveDuplicateNames {
+	
+	static TreeSet<String> removeDuplicateNames(String str){
+		
+		String[] arr = str.split(",");
+		
+		TreeSet<String> ts = new TreeSet<String>();
+		
+		for(int i=0;i<arr.length;i++) {
+			ts.add(arr[i]);
+		}
+		
+		
+		return ts;
+	}
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String str = scan.nextLine();
+		
+		System.out.print(removeDuplicateNames(str));;
+	}
+
+}

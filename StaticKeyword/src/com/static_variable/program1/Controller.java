@@ -1,0 +1,11 @@
+package com.static_variable.program1;
+
+public class Controller {
+	
+	public static void main(String[] args) {
+		Test.fun1();
+		Test test = new Test();
+		test.fun2();
+	}
+
+}

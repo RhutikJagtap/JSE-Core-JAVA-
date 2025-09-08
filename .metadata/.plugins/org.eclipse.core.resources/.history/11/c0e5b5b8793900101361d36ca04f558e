@@ -1,0 +1,11 @@
+package com.final_method.program1;
+
+//final method can be inherited but we can not override
+public class Launch {
+	
+	public static void main(String[] args) {
+		Child child = new Child();
+		child.alpha();
+	}
+
+}

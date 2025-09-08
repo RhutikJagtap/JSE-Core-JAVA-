@@ -1,0 +1,11 @@
+package com.constructor.program4;
+
+//local chaining
+public class CustomerController {
+	
+	public static void main(String[] args) {
+		Customer customer = new Customer(2,"RJ",2332);
+		
+	}
+
+}

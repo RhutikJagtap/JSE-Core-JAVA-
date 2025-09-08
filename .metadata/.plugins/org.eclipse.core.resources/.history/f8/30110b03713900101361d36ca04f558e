@@ -1,0 +1,10 @@
+package com.static_block.program1;
+
+public class JDBCConnection {
+	
+	static {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+	}
+	
+
+}

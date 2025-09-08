@@ -1,0 +1,9 @@
+package com.final_variable.program2;
+
+public class Gravity {
+	
+	float ACCELERATION_DUE_TO_GRAVITY=9.8f;
+	
+	
+
+}

@@ -1,0 +1,8 @@
+package com.constructor.program2;
+
+//Different Types Of Constructor
+public class CustomerController {
+	public static void main(String[] args) {
+		Customer customer = new Customer();
+	}
+}

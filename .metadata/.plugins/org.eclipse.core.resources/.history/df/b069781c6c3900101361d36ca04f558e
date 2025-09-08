@@ -1,0 +1,19 @@
+package com.static_variable.program2;
+
+import java.util.Scanner;
+
+public class BusinessMan {
+	
+	float si;
+	float p;
+	float t;
+	float r;
+	
+	public void acceptInput() {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter the principal amount");
+		 p = scan.nextFloat();
+	}
+
+}

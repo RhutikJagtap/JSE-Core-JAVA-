@@ -1,0 +1,12 @@
+package com.example;
+
+public class Mobile {
+	
+	Os os=new Os("Android","22")
+	
+	public void hasCharger(Charger c) {
+		System.out.println(c.getBrand());
+		System.out.println(c.getVoltage());
+	}
+
+}

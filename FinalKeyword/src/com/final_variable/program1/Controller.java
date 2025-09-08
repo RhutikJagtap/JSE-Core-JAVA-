@@ -1,0 +1,12 @@
+package com.final_variable.program1;
+
+public class Controller {
+	
+	public static void main(String[] args) {
+		Circle circle = new Circle();
+		circle.acceptIntput();
+		circle.calculateArea();
+		circle.displayArea();
+	}
+
+}

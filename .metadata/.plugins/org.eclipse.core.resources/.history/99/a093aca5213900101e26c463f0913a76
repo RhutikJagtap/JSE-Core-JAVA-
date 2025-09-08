@@ -1,0 +1,15 @@
+package set;
+
+import java.util.TreeSet;
+
+public class RemoveDuplicates {
+	
+	TreeSet<E> removeDuplicatesFromArray(int arr[]){
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

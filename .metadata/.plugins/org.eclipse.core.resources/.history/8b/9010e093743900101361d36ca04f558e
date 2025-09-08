@@ -1,0 +1,10 @@
+package com.example;
+
+public class Mobile {
+	
+	public void hasCharger(Charger c) {
+		System.out.println(c.getBrand());
+		System.out.println(c.getVoltage());
+	}
+
+}

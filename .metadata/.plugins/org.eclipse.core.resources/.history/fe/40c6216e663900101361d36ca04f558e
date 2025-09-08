@@ -1,0 +1,13 @@
+package com.encapsulation.program2;
+
+public class BankController {
+	public static void main(String[] args) {
+		Bank bank = new Bank();
+		bank.setAccountNumber(123333);
+		bank.setBalance(0);
+		
+		System.out.println(bank.getAccountNumber());
+		
+	}
+
+}

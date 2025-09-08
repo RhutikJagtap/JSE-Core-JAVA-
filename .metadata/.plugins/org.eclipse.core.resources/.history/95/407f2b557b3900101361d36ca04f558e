@@ -1,0 +1,14 @@
+package com.final_class.program1;
+
+public class Launch {
+	static int a;
+	
+	public static void main(String[] args) {
+//		Child child = new Child();
+		System.out.println(a);
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.encapsulation.program3;
+
+public class Bank {
+	
+	private int accountNumber;
+	private int pinNumber;
+	private int balance;
+	
+	
+	public Bank() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

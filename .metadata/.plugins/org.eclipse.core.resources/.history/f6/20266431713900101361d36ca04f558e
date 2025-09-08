@@ -1,0 +1,21 @@
+package com.static_block.program1;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class JDBCConnection {
+	
+	url="com.mysql.cj.jdbc.driver";
+	
+	static {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection con= DriverManager.getConnection(url,username,password);
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+
+}

@@ -1,0 +1,21 @@
+package set;
+
+import java.util.Scanner;
+
+public class RemoveDuplicateCharacter {
+	
+	 static void removeDuplicateCharacter(String str) {
+		
+		
+	}
+
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String str = scan.nextLine();
+		
+		removeDuplicateCharacter(str);
+	}
+
+	
+}
